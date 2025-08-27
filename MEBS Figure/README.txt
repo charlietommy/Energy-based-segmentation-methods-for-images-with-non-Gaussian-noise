@@ -1,0 +1,1 @@
+Before you run the program, please open k and colour.txt to get the correct colour to assign to the classes (it doesn't affect the splitting result, it's just for the sake of looking good) and the classes to split (MEBS doesn't use it, because it finds the right classes by itself).

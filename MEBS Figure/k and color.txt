@@ -1,0 +1,273 @@
+Breast Picture ( Figure 10.  in paper) (k=6)#Number of classification
+MEBS
+1-4
+predefined_colors = [
+    (0, 0, 0), # Black
+    (128, 128, 128), # Grey
+    (255, 255, 0), # Yellow
+    (75, 0, 130), # Indigo Blue
+    (255, 20, 147), # Dark Pink
+    (255, 165, 0), # Orange
+]
+
+Subtractive Clustering K-Means with Filtering
+1
+    [0, 0, 0], # black
+    [75, 0, 130], # Purple
+    [255, 20, 147], # Rose
+    [255, 255, 0], # Yellow
+    [128, 138, 135], # Grey
+    [225, 165, 0], # Orange
+
+2
+    [0, 0, 0], # Black
+    [75, 0, 130], # Purple
+    [255, 20, 147], # Rose
+    [255, 255, 0], # Yellow
+    [225, 165, 0], # Orange
+    [128, 138, 135], # Grey
+
+3
+    [0, 0, 0], # Black
+    [255, 20, 147], # Rose
+    [75, 0, 130], # Purple
+    [225, 165, 0], # Orange
+    [128, 138, 135], # Grey
+    [255, 255, 0], # Yellow
+
+4
+    [0, 0, 0], # Black
+    [255, 20, 147], # Rose
+    [225, 165, 0], # Orange
+    [255, 255, 0], # Yellow
+    [75, 0, 130], # Purple
+    [128, 138, 135], # Grey
+
+Sparse Graph Spectral Clustering
+1
+    [128, 138, 135], # Grey
+    [0, 0, 0], # Black
+    [75, 0, 130], # Purple
+    [255, 20, 147], # Rose
+    [255, 255, 0], # Yellow
+    [225, 165, 0], # Orange
+
+2
+    [75, 0, 130], # Purple
+    [0, 0, 0], # Black
+    [128, 138, 135], # Grey
+    [255, 20, 147], # Rose
+    [255, 255, 0], # Yellow
+    [225, 165, 0], # Orange
+
+3
+    [0, 0, 0], # Black
+    [225, 165, 0], # Orange
+    [75, 0, 130], # Purple
+    [128, 138, 135], # Grey
+    [255, 255, 0], # Yellow
+    [255, 20, 147], # Rose
+
+4
+    [0, 0, 0], # Black
+    [128, 138, 135], # Grey
+    [75, 0, 130], # Purple
+    [255, 255, 0], # Yellow
+    [255, 20, 147], # Rose
+    [225, 165, 0], # Orange
+
+GMM+MRF
+1
+                 0: [225, 165, 0], # Orange
+                 1: [0, 0, 0], # Black
+                 2: [255, 255, 0], # Yellow
+                 3: [75, 0, 130], # Purple
+                 4: [128, 138, 135], # Grey
+                 5: [255, 20, 147], # Rose
+
+2
+                 0: [0, 0, 0], # Black
+                 1: [75, 0, 130], # Purple
+                 2: [255, 255, 0], # Yellow
+                 3: [255, 20, 147], # Rose
+                 4: [128, 138, 135], # Grey
+                 5: [225, 165, 0], # Orange
+
+3
+                 0: [128, 138, 135], # Grey
+                 1: [255, 20, 147], # Rose
+                 2: [0, 0, 0], # Black
+                 3: [75, 0, 130], # Purple
+                 4: [255, 255, 0], # Yellow
+                 5: [225, 165, 0], # Orange
+
+4
+                 0: [255, 20, 147], # Rose
+                 1: [0, 0, 0], # Black
+                 2: [225, 165, 0], # Orange
+                 3: [255, 255, 0], # Yellow
+                 4: [75, 0, 130], # Purple
+                 5: [128, 138, 135], # Grey
+
+Cell Picture  ( Figure 12.  in paper)(k=4,5,8,5)#Number of classification
+MEBS
+1-4
+predefined_colors = [ 
+    (0, 0, 0), # black
+    (255, 255, 0), # yellow
+    (255, 0, 0), # Red
+    (255, 20, 147), # Dark Pink
+    (255, 165, 0), # Orange
+    (75, 0, 130), # Indigo Blue
+    (128, 0, 128), # Purple
+    (255, 255, 255) # White
+]
+
+Subtractive Clustering K-Means with Filtering
+1
+    [0, 0, 0], # black
+    [255, 0, 0], # Red
+    [255, 255, 0], # Yellow
+    [255, 20, 147], # Rose
+
+2
+    [0, 0, 0], # Black
+    [225, 165, 0], # Orange
+    [255, 20, 147], # Rose
+    [255, 0, 0], # Red
+    [255, 255, 0], # Yellow
+
+3
+    [0, 0, 0], # Black
+    [225, 165, 0], # Orange
+    [255, 20, 147], # Rose
+    [255, 255, 0], # Yellow
+    [75, 0, 130], # Purple
+    [255, 0, 0], # Red
+    [0,0,50], # Red
+    [50,0,0]
+
+4
+    [0, 0, 0], # Black
+    [225, 165, 0], # Orange
+    [255, 0, 0], # Red
+    [255, 20, 147], # Rose
+    [255, 255, 0], # Yellow
+
+Sparse Graph Spectral Clustering
+1
+    [0, 0, 0], # Black
+    [128, 138, 135], # Grey
+    [255, 0, 0], # Red
+    [255, 255, 0], # Yellow
+
+2
+    [0, 0, 0], # Black
+    [255, 0, 0], # Red
+    [225, 165, 0], # Orange
+    [255, 20, 147], # Rose
+    [255, 255, 0], # Yellow
+
+3
+    [0, 0, 0], # Black
+    [255, 0, 0], # Red
+    [255, 20, 147], # Rose
+    [128, 138, 135], # Grey
+    [75, 0, 130], # Purple
+    [50, 50, 50], # Grey
+    [255, 255, 0], # Yellow
+    [225, 165, 0], # Orange
+
+4
+    [0, 0, 0], # Black
+    [255, 20, 147], # Rose
+    [225, 165, 0], # Orange
+    [255, 0, 0], # Red
+    [255, 255, 0], # Yellow
+
+GMM+MRF
+1
+                 0: [0, 0, 0], # Black
+                 1: [255, 20, 147], # Rosy Red
+                 2: [255,0,0], # Red
+                 3: [255, 255, 0], # Yellow
+                 4: [75, 0, 130], # Purple
+                 5: [128, 138, 135], # Grey
+
+2
+                 0: [0, 0, 0], # Black
+                 1: [255, 20, 147], # Rose
+                 2: [255,0,0], # Red
+                 3: [225, 165, 0], # Orange
+                 4: [255, 255, 0], # Yellow
+
+3
+                 0: [0, 0, 0], # Black
+                 1: [255, 20, 147], # Rose
+                 2: [50,0,0], # Black
+                 3: [225, 165, 0], # Orange
+                 4: [255,0,0], # Red
+                 5: [75, 0, 130], # Purple
+                 6: [128, 138, 135], # Grey
+                 7: [255, 255, 0], # Yellow
+
+4
+                 0: [0, 0, 0], # Black
+                 1: [255,0,0], # Red
+                 2: [255, 255, 0], # yellow
+                 3: [225, 165, 0], # Orange
+                 4: [255, 20, 147], # Rose
+
+Fire Picture  ( Figure 13.  in paper)(k=4,3)#Number of classification
+MEBS
+1
+predefined_colors = [ 
+            (0, 0, 0), # Black
+            (128, 128, 128), # Grey
+            (255, 255, 0), # yellow
+            (255, 0, 0) , # red
+]
+
+2
+ predefined_colors = [ 
+                (128, 128, 128), # grey
+                (255, 255, 0), # yellow
+                (255, 0, 0) , # red
+    ]
+Subtractive Clustering K-Means with Filtering
+1
+    [255, 255, 0], # yellow
+    [128, 138, 135], # Grey
+    [225, 165, 0], # Orange
+    [0, 0, 0], # Black
+
+2
+    [255, 255, 0], # Yellow
+    [0, 0, 0], # Black
+    [128, 138, 135], # Grey
+
+Sparse Graph Spectral Clustering
+1
+    [128, 138, 135], # Grey
+    [225, 165, 0], # Orange
+    [255, 0, 0], # Red
+    [255, 255, 0], # Yellow
+
+2
+    [128, 138, 135], # Grey
+    [225, 165, 0], # Orange
+    [255,0,0], # Red
+
+
+GMM+MRF
+1
+                 0: [0, 0, 0], # black
+                 1: [255,0,0], # Red
+                 2: [255, 255, 0], # Yellow
+                 3: [128, 138, 135], # Grey
+
+2
+                 0: [0, 0, 0], # black
+                 2: [255, 255, 0], # yellow
+                 3: [128, 138, 135], # Grey
+
