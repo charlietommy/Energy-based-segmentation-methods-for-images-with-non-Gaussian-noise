@@ -40,6 +40,15 @@ This repository contains the code for the EBS and MEBS methods proposed in our p
 
 **Note:** To reproduce the exact colors shown in the paper's figures, please carefully read the `README` file in the folder to understand the specific implementation of color generation.
 
+## Image Attribution
+
+The following images are used for academic demonstration purposes only. All rights belong to the original creators:
+
+- `Y242.jfif` are sourced from the https://www.kaggle.com/datasets/mahmoudshaheen1134/brain-tumor-dataset.
+- `ct3.png` are sourced from S. Nouri, N. Mirhosseini, N. Naghibi, and M. Hasanian, Thoracic CT scan findings in patients with confirmed hematologic malignancies admitted to the hospital with acute pulmonary symptoms, International Journal of Cancer Management, Vol. 16, 2023.
+If you are the copyright holder and wish to have these images removed, please contact me.
+
+
 ### EBS Figure and Other Scripts
 
 The Python scripts (`.py`) in the `EBS Figure`, `Example1`, and `Example2` folders can be run directly. Please ensure you have the necessary libraries installed.
