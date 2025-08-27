@@ -36,7 +36,7 @@ This repository contains the code for the EBS and MEBS methods proposed in our p
     ```bash
     pip install opencv-python numpy pandas scipy statsmodels Pillow matplotlib
     ```
-3.  Run `main.py` to execute the MEBS method.
+3.  Run `MEBS.py` to execute the MEBS method.
 
 **Note:** To reproduce the exact colors shown in the paper's figures, please carefully read the `README` file in the folder to understand the specific implementation of color generation.
 
