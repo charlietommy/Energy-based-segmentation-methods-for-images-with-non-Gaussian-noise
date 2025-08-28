@@ -29,6 +29,17 @@ This repository contains the code for the EBS and MEBS methods proposed in our p
 
 -   Python 3.8 or higher
 
+### EBS Figure
+
+1.  Navigate to the `EBS Figure` directory.
+2.  Install the required dependencies. You can run the following command to install all necessary libraries:
+    ```bash
+    pip install opencv-python numpy pandas scipy statsmodels Pillow matplotlib
+    ```
+3.  Run `EBS.py` to execute the MEBS method.
+
+**Note:** To reproduce the exact colors shown in the paper's figures, please carefully read the `README` file in the folder to understand the specific implementation of color generation.
+
 ### MEBS Figure
 
 1.  Navigate to the `MEBS Figure` directory.
